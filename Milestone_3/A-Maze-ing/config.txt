@@ -1,0 +1,11 @@
+# Esto es un comentario
+# Este es otro
+
+
+WIDTH = 20
+HEIGHT = 15
+ENTRY=0,0
+EXIT=19,14
+OUTPUT_FILE=meze.txt
+PERFECT=True
+SEED = 24
