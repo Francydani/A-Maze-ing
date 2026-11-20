@@ -1,8 +1,5 @@
 #!/usr/bin/env
 
-from maze_generator import MazeGenerator
-
-
 def render_ascii(grid: list[list[int]]) -> None:
     """Dibuja el laberinto en la terminal usando líneas finas Unicode.
 
@@ -57,15 +54,15 @@ def render_ascii(grid: list[list[int]]) -> None:
     print(bottom_line)
 
 
-    
 """if __name__ == "__main__":
     maze = create_grid(10, 10)
     grid, visited = carve_maze(maze, (0, 0), (4, 4))
     render_ascii(grid)
     '''reset = "\033[0m"
     color = "\033[1;35;47m"
-    print(f"{color}   {reset}") 
-    print(f"{"\033[7;35m"} Texto en negrita y subrayado de color morado {reset}")
-    
+    print(f"{color}   {reset}")
+    print(f"{"\033[7;35m"} Texto en negrita y subrayado de color morado {
+    reset}")
+
     print("Hola")'''
 """

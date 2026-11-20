@@ -5,14 +5,16 @@ def save_maze(
         entry: tuple[int, int], exit_post: tuple[int, int],
         path: str) -> None:
     """
-    Guarda la cuadrícula del laberinto, las coordenadas y la ruta de la solucion en un archivo.
+    Guarda la cuadrícula del laberinto, las coordenadas y
+    la ruta de la solucion en un archivo.
 
     Argumentos:
         program: Ruta de archivo de salida donde se guardará el laberinto.
         grid: Matriz bidimensional de enteros que representan las paredes.
         entry: Coordenadas iniciales (x,y) en el laberinto.
         exit_post: Coordenadas finales (x,y) en el laberinto.
-        path: Secuencia de cadenas de caracteres con las direcciones cardinales para la solución.
+        path: Secuencia de cadenas de caracteres con las direcciones
+        cardinales para la solución.
     """
     with open(program, "w") as file:
         for grow in grid:
