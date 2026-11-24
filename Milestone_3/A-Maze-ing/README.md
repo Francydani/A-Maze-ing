@@ -11,6 +11,8 @@
 * [Documentacion oficial de python](#Título)
 * [Manual Oficial de GNU Make](#recursos:https://www.gnu.org/software/make/manual/make.html)
 * [Para los colores](https://python-para-impacientes.blogspot.com/2016/09/dar-color-las-salidas-en-la-consola.html)
+	https://xterm.codes/?utm_source=chatgpt.com&syntax=octal&lang=python
+	
 
 ## Segunda Parte 
 
@@ -49,3 +51,7 @@ El programa verifica que estén todas las claves obligatorias, rechaza claves du
 	* Qué funcionó bien y qué se podría mejorar
 	* ¿Has utilizado alguna herramienta específica? ¿Cuáles?
 	* Si implementa funciones avanzadas (múltiples algoritmos, opciones de visualización), descríbalas en este archivo README.md.
+
+## Licencia
+
+Este proyecto cuenta con licencia conforme a los terminos de la licencia --MIT--.Consulte el archivo LICENSE para conocer los derechos y limitaciones de la licencia.

@@ -73,7 +73,9 @@ def validate_keys(data: dict[str, str]) -> None:
     received_key = set(data.keys())
     missing = keys - received_key  # miramos cual falta y cual sobra
     if missing:
-        raise ValueError(f"Required key missing: {missing}")
+        raise ValueError(
+            f"Required key missing: {missing}\n"
+            "Go to your file: <config.txt>")
     unknown = received_key - allowed_keys
     if unknown:
         raise ValueError(f"Invaid Keys: {unknown}")

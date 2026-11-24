@@ -2,10 +2,10 @@
 # Este es otro
 
 
-WIDTH = 25
-HEIGHT =25
-ENTRY=0,0
-EXIT= 24,24
+WIDTH = 25 
+HEIGHT = 20
+ENTRY=1,1
+EXIT= 19,13
 OUTPUT_FILE=maze.txt
 PERFECT=True
 
