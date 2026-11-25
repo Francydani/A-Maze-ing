@@ -51,7 +51,7 @@ def print_menu(theme: dict[str, str]) -> str:
     print("2. Show / Hide the shortest path")
     print("3. Rotate the wall colours")
     print(f"4. Quit{reset}")
-    print("\033[J")  # comando para limpiar pantalla
+    print("\033[J", end="") # comando para limpiar pantalla
     return input(f"{prompt}Choice? (1-4): {reset}").strip()
 
 
