@@ -6,6 +6,12 @@
 
 ## Instrucciones
 
+Para correr el programa puedes ejecutar:
+
+![imagen del Laberinto](resources/image.png)
+
+
+
 ## Recursos
 
 * [Documentacion oficial de python](#Título)
